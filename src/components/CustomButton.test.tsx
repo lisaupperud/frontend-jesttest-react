@@ -65,4 +65,8 @@ describe("Custom Button Component States", () => {
     fireEvent.click(customButtonComponent)
     expect(customButtonComponent).toHaveClass(ButttonState.clicked)
   })
+
+  test("This test should fail for my GitHub Action Training", () => {
+    expect(2+2).toBe(999)
+  })
 })
